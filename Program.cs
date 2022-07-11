@@ -19,7 +19,7 @@ void newMass1(){
     }
     Console.WriteLine($"четных чисел в массиве newMass - {P}"); 
 }
-newMass1();
+//newMass1();
 
 
 //Задача 36: Задайте одномерный массив, заполненный случайными числами. 
@@ -73,7 +73,8 @@ void newMass3(){
         }
 Console.WriteLine($"{Pmax} - максимальное число");
 Console.WriteLine($"{Pmin} - минимальное число");
+Console.WriteLine($"{Pmax - Pmin} - разница максимального и минимального чисел массива");
 }
-//newMass3();
+newMass3();
 
 
