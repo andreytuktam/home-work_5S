@@ -36,15 +36,15 @@ void newMass2(){
     for (int i = 0; i < length; i++)
     {
         newMass[i] = new Random().Next(100, 1000);
-        if (i % 2 == 0)
+        if (i % 2 == 1)
         {
             P = newMass[i] + P;
             Console.WriteLine($"{newMass[i]} на позиции {i}");
         }
     }
-    Console.WriteLine($"сумма чисел четных индексов в массиве newMass - {P}");    
+    Console.WriteLine($"сумма чисел нечетных индексов в массиве newMass - {P}");    
 }       
-//newMass2();
+newMass2();
 
 //Задача 38: Задайте массив вещественных чисел. 
 //Найдите разницу между максимальным и минимальным элементов массива.
@@ -75,6 +75,6 @@ Console.WriteLine($"{Pmax} - максимальное число");
 Console.WriteLine($"{Pmin} - минимальное число");
 Console.WriteLine($"{Pmax - Pmin} - разница максимального и минимального чисел массива");
 }
-newMass3();
+//newMass3();
 
 
